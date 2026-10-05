@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hush Hall — museum of sounds nobody makes anymore</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Space+Mono:wght@400;700&family=Karla:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="stub">Entry is free; Please keep your phone loud</div>
+
+<header class="topbar">
+  <a href="#" class="logo">Hush<span>Hall</span></a>
+
+  <input type="checkbox" id="burger" class="burger-box">
+  <label for="burger" class="burger" aria-label="open menu"><i></i><i></i><i></i></label>
+
+  <nav class="menu">
+    <a href="#wing-a">The Wings</a>
+    <a href="#listen">Listening Booth</a>
+    <a href="#wall">Memory Wall</a>
+    <a href="#donate" class="menu-cta">Donate a sound</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="hero-text">
+      <p class="kicker">Est. the day the last modem went quiet</p>
+      <h1>A museum for the noises <em>the world forgot</em> to keep.</h1>
+      <p class="lede">
+        Dial tones. Cassette rewinds. The clunk of a coin in a payphone.
+        They didn't go extinct with a bang; they just stopped.
+        Hush Hall collects them before the last people who remember them do too.
+      </p>
+      <a href="#wing-a" class="btn">Walk in</a>
+    </div>
+
+
+    <div class="speaker" aria-hidden="true">
+      <div class="grille">
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span>
+      </div>
+      <p class="now">NOW PLAYING: <b>56k handshake, 1998</b></p>
+    </div>
+  </section>
+
+
+  <section class="facts">
+    <div><strong>214</strong><span>sounds archived</span></div>
+    <div><strong>37</strong><span>countries donated</span></div>
+    <div><strong>0</strong><span>of them still made today</span></div>
+  </section>
+
+  <section class="wings" id="wing-a">
+    <h2 class="sec-title">The Wings <small>pick a room, any room</small></h2>
+
+    <div class="cards">
+
+      <article class="card" style="--tint:#e2603f">
+        <div class="wave w1"></div>
+        <p class="tag">Wing A Telephony</p>
+        <h3>Dial-up handshake</h3>
+        <p>That screeching, hissing argument two computers had before you were allowed to check your email.</p>
+        <dl><dt>Born</dt><dd>1991</dd><dt>Last heard</dt><dd>~2009</dd></dl>
+      </article>
+
+      <article class="card" style="--tint:#3d7a6a">
+        <div class="wave w2"></div>
+        <p class="tag">Wing B Tape</p>
+        <h3>Pencil rewind</h3>
+        <p>Batteries were expensive. So you spun the cassette on a pencil, one tiny squeak at a time.</p>
+        <dl><dt>Born</dt><dd>1965</dd><dt>Last heard</dt><dd>~2004</dd></dl>
+      </article>
+
+      <article class="card" style="--tint:#c99a2e">
+        <div class="wave w3"></div>
+        <p class="tag">Wing A Telephony</p>
+        <h3>Rotary dial return</h3>
+        <p>Dialing a 9 took forever. Everyone had at least one friend whose number was full of nines.</p>
+        <dl><dt>Born</dt><dd>1904</dd><dt>Last heard</dt><dd>~1995</dd></dl>
+      </article>
+
+      <article class="card" style="--tint:#5a5fa8">
+        <div class="wave w4"></div>
+        <p class="tag">Wing C Screens</p>
+        <h3>CRT whine</h3>
+        <p>A high pitched hum only kids and dogs could hear. You knew the TV was on from the next room.</p>
+        <dl><dt>Born</dt><dd>1934</dd><dt>Last heard</dt><dd>~2012</dd></dl>
+      </article>
+
+      <article class="card" style="--tint:#a3485c">
+        <div class="wave w5"></div>
+        <p class="tag">Wing D Office</p>
+        <h3>Typewriter bell</h3>
+        <p>Ding. End of line. Slam the carriage back and start again, no backspace to save you.</p>
+        <dl><dt>Born</dt><dd>1878</dd><dt>Last heard</dt><dd>~1990</dd></dl>
+      </article>
+
+      <article class="card" style="--tint:#2f6f9c">
+        <div class="wave w6"></div>
+        <p class="tag">Wing C Screens</p>
+        <h3>Floppy seek</h3>
+        <p>Grrk grrk grrk. The sound of a computer thinking really really hard about your 1.44 MB.</p>
+        <dl><dt>Born</dt><dd>1971</dd><dt>Last heard</dt><dd>~2006</dd></dl>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="booth" id="listen">
+    <h2 class="sec-title light">Listening Booth <small>read the placard, imagine the rest</small></h2>
+
+    <div class="tabs">
+      <input type="radio" name="booth" id="t1" checked>
+      <input type="radio" name="booth" id="t2">
+      <input type="radio" name="booth" id="t3">
+
+      <div class="tab-labels">
+        <label for="t1">Payphone coin</label>
+        <label for="t2">Film winder</label>
+        <label for="t3">Nokia keypad</label>
+      </div>
+
+      <div class="panels">
+        <div class="panel p1">
+          <div class="vinyl"></div>
+          <div>
+            <h3>Clunk, then a dial tone</h3>
+            <p>Two rupees, one call, a line of people behind you pretending not to listen. The coin dropped like a full stop on a sentence you hadn't said yet.</p>
+            <p class="cat">Catalogue no. HH-0042</p>
+          </div>
+        </div>
+        <div class="panel p2">
+          <div class="vinyl"></div>
+          <div>
+            <h3>Zzzrt zzzrt</h3>
+            <p>Thumb on the wheel after every photo. 24 shots, no previews, and you'd only find out at the studio that half of them had your finger in it.</p>
+            <p class="cat">Catalogue no. HH-0117</p>
+          </div>
+        </div>
+        <div class="panel p3">
+          <div class="vinyl"></div>
+          <div>
+            <h3>Tak-tak-tak, tak</h3>
+            <p>Pressing 7 four times to get an "s". Teachers could hear it under the desk. Teachers always heard it.</p>
+            <p class="cat">Catalogue no. HH-0160</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wall" id="wall">
+    <h2 class="sec-title">Memory Wall <small>notes pinned by visitors</small></h2>
+    <div class="notes">
+      <p>My grandfather's radio took a full minute to warm up. We'd wait for it like waiting for him to finish a sentence.</p>
+      <p>Mum knew I was online because the phone line went dead. That was the whole security system.</p>
+      <p>The train station clock flipping its numbers. Clack-clack-clack. I miss being early.</p>
+      <p>The printer warming up before it printed my project. 10:58 pm. Due at 8.</p>
+    </div>
+  </section>
+  
+  <section class="faq">
+    <h2 class="sec-title">Front desk questions</h2>
+    <details>
+      <summary>Why are there no audio files?</summary>
+      <p>On purpose. Every exhibit is described, never played. Your memory does the playing, and honestly it's a better speaker.</p>
+    </details>
+    <details>
+      <summary>What counts as a "vanished" sound?</summary>
+      <p>Something people heard every day that nobody under 15 has heard at all. If your little cousin looks confused, it qualifies.</p>
+    </details>
+    <details>
+      <summary>Can I visit in person?</summary>
+      <p>Hush Hall only exists here. It's a museum without walls, which is fitting, since its exhibits don't exist either.</p>
+    </details>
+  </section>
+
+  <section class="donate" id="donate">
+    <div class="donate-box">
+      <h2>Donate a sound</h2>
+      <p>Tell us about a noise you haven't heard in years. We'll write it a placard.</p>
+      <form action="#" method="post">
+        <label>Name of the sound
+          <input type="text" placeholder="e.g. the ice-cream van tune" required>
+        </label>
+        <label>Roughly when did it go quiet?
+          <select>
+            <option>Before 1980</option>
+            <option>1980s</option>
+            <option>1990s</option>
+            <option selected>2000s</option>
+            <option>2010s</option>
+          </select>
+        </label>
+        <label>Describe it with words only
+          <textarea rows="4" placeholder="No onomatopoeia is too silly."></textarea>
+        </label>
+        <button type="submit">Pin it to the archive</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <p>Hush Hall 2026 Built with HTML CSS and nothing louder.</p>
+  <p class="tiny">Please exit quietly. Someone is remembering something.</p>
+</footer>
+
+</body>
+</html>
